@@ -4,7 +4,7 @@
 container_name=jenkins-demo
 image_name=jenkins-demo
 server_port=8088
-data_dir="/home/changdaye/data/"
+data_dir="/home/1/data/"
 if [ -f "target/demo-0.0.1-SNAPSHOT.jar" ]; then
         container_id=$(docker ps -a | grep "${container_name}" | awk '{print $1}')
         if [ "${container_id}" != "" ];then
