@@ -11,6 +11,14 @@ public class DemoApplicationTests {
 
     @Test
     public void contextLoads() {
+        //todo
+        int i = 1;
+        System.out.println(i / 0);
+        try {
+
+        } catch (Exception e) {
+
+        }
     }
 
 }
