@@ -15,7 +15,7 @@ public class DemoApplicationTests {
         int i = 1;
         System.out.println(i / 0);
         try {
-
+            System.out.println(i);
         } catch (Exception e) {
 
         }
