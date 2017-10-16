@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'master'
+        label 'master' /* 执行节点 */
     }
     stages {
         stage('Build') {
