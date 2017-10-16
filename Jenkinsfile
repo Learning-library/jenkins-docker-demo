@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label '香港节点'
+        label 'master'
     }
     stages {
         stage('Build') {
