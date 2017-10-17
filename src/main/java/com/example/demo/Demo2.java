@@ -18,6 +18,7 @@ public class Demo2 {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     @ResponseBody
     public String index() {
+        System.out.println(System.currentTimeMillis());
         return "Hello World ! ! !";
     }
 }
