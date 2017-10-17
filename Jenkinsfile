@@ -1,5 +1,8 @@
-node {
 
+node {
+  agent {
+        label 'master' /* 执行节点 */
+  }
   stage ('Checkout') {
     git 'https://github.com/changdaye/jenkins-docker-demo.git'
   }
