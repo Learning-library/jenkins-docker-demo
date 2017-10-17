@@ -1,12 +1,5 @@
 
-node {
-  agent {
-        label 'master' /* 执行节点 */
-  }
-  stage ('Checkout') {
-    git 'https://github.com/changdaye/jenkins-docker-demo.git'
-  }
-
+node（'master'）{
   stage ('Create Virtualenv') {
     def mvnHome = tool 'M3'
     env.PATH = "${mvnHome}/bin:${env.PATH}"
