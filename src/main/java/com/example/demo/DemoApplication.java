@@ -9,6 +9,6 @@ public class DemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
 
-        System.out.println(args);
+        System.out.println("The test code is submitted automatically and depends on poll scm");
     }
 }
