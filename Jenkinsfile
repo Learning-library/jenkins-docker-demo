@@ -20,8 +20,8 @@ pipeline{
         }
         stage('docker run '){
             steps{
-                sh 'chmod 777 ${WORKSPACE}/jenkins-run.sh'
-                sh '${WORKSPACE}/jenkins-run.sh'
+                sh 'chmod 777 ./jenkins-run.sh'
+                sh './jenkins-run.sh'
             }
         }
 
