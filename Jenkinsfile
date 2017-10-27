@@ -20,7 +20,7 @@ pipeline{
         }
         stage('docker run '){
             steps{
-                sh jenkins-run.sh
+                sh '${WORKSPACE}/jenkins-run.sh'
             }
         }
 
