@@ -1,5 +1,5 @@
 pipeline{
-    agent none
+    agent one
     tools{
         jdk 'jdk8'
         maven 'maven'
