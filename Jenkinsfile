@@ -1,5 +1,5 @@
 pipeline{
-    agent one
+    agent {master}
     tools{
         jdk 'jdk8'
         maven 'maven'
