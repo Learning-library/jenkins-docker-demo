@@ -1,5 +1,4 @@
-pipeline(master){
-    agent any
+node（'master'）{
     tools{
         jdk 'jdk8'
         maven 'maven'
