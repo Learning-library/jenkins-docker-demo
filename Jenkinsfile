@@ -1,4 +1,4 @@
-pipeline{
+pipeline(master){
     agent any
     tools{
         jdk 'jdk8'
