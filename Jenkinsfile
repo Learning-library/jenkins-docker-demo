@@ -1,4 +1,7 @@
-node（'master'）{
+pipeline{
+    agent{
+            label 'master'
+    }
     tools{
         jdk 'jdk8'
         maven 'maven'
