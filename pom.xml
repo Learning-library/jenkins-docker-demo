@@ -51,4 +51,18 @@
 
         </plugins>
     </build>
+
+
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>Nexus Release Repository</name>
+            <url>http://nexus.jetbrains.org.cn/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Nexus Snapshot Repository</name>
+            <url>http://nexus.jetbrains.org.cn/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
